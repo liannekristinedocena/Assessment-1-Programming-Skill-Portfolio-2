@@ -18,9 +18,10 @@ months2 = input("Input the month number! : ") #asks the user to input a number f
 if months2.isdigit(): #using .isdigits(): helps check if all characters in a string are classified as integers / digits 
     monthnumber = int(months2) #converts the string input into an integer and places it in a new variable named 'monthnumber' 
     if 1<= monthnumber <=12 : #checks whether or not the user input is within the range 1-12 
-        print(f"Month {monthnumber} has {months[monthnumber]} days.") #prints the month number as well as the month days from the dictionary 
+        print(f"Month {monthnumber} has {months[monthnumber]} days.") #prints the key-value pair from the dictionary 
     else: 
         print("That is not a valid month") #displays when the numbers are outside the range
 else: 
     print("That is not a number.") #displays when the value is a string and not an integer 
+
 
