@@ -5,5 +5,6 @@ search = input("Enter a name: ")  #asks the user to input a name and places insi
 if search in names: #Searches for the given user input
     print(search, "was found in the list.") #if found, the code proceeds.  
 else: 
-    print(search, "was not found in the list.")
+    print(search, "was not found in the list.") #displays if name is not found. 
+
 
