@@ -1,4 +1,4 @@
-#EX5 ADVANCED REQUIRMENT : LEAP YEAR 
+#EX5 ADVANCED REQUIREMENT : LEAP YEAR 
 months = {1 : 31, 
           2 : 28, 
           3 : 31, 
@@ -30,4 +30,5 @@ if months2.isdigit():
         print("That is not a valid month")
 else: 
     print("That is not a number.")
+
 
